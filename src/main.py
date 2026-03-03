@@ -1,3 +1,17 @@
+# main.py
+# RISC-V Instruction Decoder (CSE 140 Lab 3)
+# Work Division for Demo:
+#   Joe:
+#     - Designed overall decoder architecture
+#     - Implemented decode() dispatcher in decoder.py
+#     - Implemented decode_sb() and decode_uj() including immediate bit reconstruction
+#       and sign-extension logic
+#
+#   Noah:
+#     - Implemented bit extraction utilities in bit_utils.py
+#     - Implemented opcode and funct mapping tables in isa_tables.py
+#     - Implemented CLI prompt and formatted output (this file)
+
 from .decoder import decode
 
 
